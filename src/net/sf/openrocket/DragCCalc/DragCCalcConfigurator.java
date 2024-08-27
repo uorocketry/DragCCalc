@@ -54,7 +54,7 @@ public class DragCCalcConfigurator extends AbstractSwingSimulationExtensionConfi
         gbc.gridx = 1;
         gbc.gridy = 1;
         gbc.anchor = GridBagConstraints.EAST;
-        jPanel.add(fileChooserButton);
+        jPanel.add(fileChooserButton, gbc);
 
         fileChooserButton.addActionListener(new ActionListener() {
             @Override
