@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact name="DragCCalc:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/DragCCalc_jar</output-path>
+    <root id="root">
+      <element id="archive" name="DragCCalc.jar">
+        <element id="module-output" name="DragCCalc" />
+      </element>
+      <element id="library" level="project" name="OpenRocket-23.09" />
+      <element id="library" level="project" name="OpenRocket-23.10" />
+    </root>
+  </artifact>
+</component>
